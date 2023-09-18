@@ -1,4 +1,10 @@
 import React from 'react' ;
+import {  Pagination } from 'swiper/modules';
+
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
+import 'swiper/css/pagination';
+
 import "./testimonials.css" ;
 import Image1 from "../../assets/avatar-1.svg" ;
 import Image2 from "../../assets/avatar-2.svg" ;
@@ -34,20 +40,28 @@ const Testimonials = () => {
     <section className="testimonials container section">
       <h2 className='section__title'> Clientes y Reviews </h2>
 
-      <div className="testimonials__container grid">
+      <Swiper className="testimonials__container grid" 
+               modules={[ Pagination ]}
+               spaceBetween={30}
+               slidesPerView={1}
+               loop={ true }
+               grabCursor={true }            
+               pagination={{ clickable: true }} >
+              
+
         {data.map(( item )=>{
           return(
-            <div className="testimonial__item" key={ item.id }>
+            <SwiperSlide className="testimonial__item" key={ item.id }>
               <div className="thumb">
                 <img src={ item.image } alt=''/>
               </div>
               <h3 className='testimonials__title'> { item.title } </h3>
               <span className='subtitle'> { item.subtitle } </span>
               <div className="comment"> { item.comment } </div>
-            </div>
+            </SwiperSlide>
           )
         })}
-      </div>
+      </Swiper>
     </section>
   ) ;
 } ;
