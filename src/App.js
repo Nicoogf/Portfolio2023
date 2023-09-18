@@ -15,18 +15,18 @@ import Contact from "./components/contact/Contact" ;
 function App() {
   return (
     <>
-      <Sidebar />
-      <main className='main'>
-        <Home /> 
-        <About />
-        <Services />
-        <Resume />
-        <Portfolio />
-        <Pricing />
-        <Testimonials />
-        <Blog />
-        <Contact />
-      </main>
+        <Sidebar />
+        <main className='main'>
+          <Home /> 
+          <About />
+          <Services />
+          <Resume />
+          <Portfolio />
+          <Pricing />
+          <Testimonials />
+          <Blog />
+          <Contact />
+        </main>
 
     </>
   );
