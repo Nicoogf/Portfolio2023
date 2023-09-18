@@ -2,6 +2,7 @@ import React from 'react' ;
 import "./home.css" ;
 import Me from "../../assets/avatar-1.svg" ;
 import HeaderSocials from './HeaderSocials' ;
+import ScrollDown from './ScrollDown' ;
 
 const Home = () => {
   return (
@@ -14,6 +15,8 @@ const Home = () => {
         <HeaderSocials />
 
         <a href="#contact" className='btn'> Contactame</a>
+
+        <ScrollDown />
         
       </div>
     </section>
