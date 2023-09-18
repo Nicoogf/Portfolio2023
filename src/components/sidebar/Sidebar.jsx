@@ -5,9 +5,11 @@ import Logo from "../../assets/logo.svg"
 const Sidebar = () => {
   return (
     <aside className='aside'>
+
       <a href="#home" className="nav__logo">
         <img src={ Logo } alt='' />
       </a>
+
       <nav className='nav'>
         <div className='nav__menu'>
 
@@ -57,9 +59,15 @@ const Sidebar = () => {
             </li>
             
           </ul>
+          
         </div>
 
       </nav>
+
+      <div className="nav__footer">
+        <span className="copyright">&copy; 2023 - 2024. </span>
+      </div>
+
     </aside>
   ) ;
 } ;
