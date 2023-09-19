@@ -1,4 +1,4 @@
-import Work1 from "../../assets/work-1.svg" ;
+import spotify from "../../assets/Spotify.jpg" ;
 import Work2 from "../../assets/work-2.svg" ;
 import Work3 from "../../assets/work-3.svg" ;
 import Work4 from "../../assets/work-4.svg" ;
@@ -9,39 +9,45 @@ import Work6 from "../../assets/work-6.svg" ;
 const Menu = [
     {
         id: 1,
-        image: Work1,
-        title: "Project Managment ilustration",
-        category: "Desing"
+        image: spotify,
+        title: "Spotify Clone",
+        category: "Clon",
+        descripcion: "Proyecto realizado con Tailwind - NextJs"
     },
     {
         id: 2,
         image: Work2,
         title: "App de screens",
-        category: "Art"
+        category: "App",
+        descripcion: "Proyecto realizado con Tailwind - NextJs"
     },
     {
         id: 3,
         image: Work3,
         title: "delivery app",
-        category: "Branding"
+        category: "Diseño",
+        descripcion: "Aver"
     },
     {
         id: 4,
         image: Work4,
         title: "onbrabndi motivation",
-        category: "Desing"
+        category: "Desing",
+        descripcion: "Aver"
     },
     {
         id: 5,
         image: Work5,
         title: "ImacMock desing",
-        category: "Creative"
+        category: "Creative",
+        descripcion: "Aver"
     },
     {
         id: 6,
         image: Work6,
         title: "GameStore",
-        category: "art"
+        category: "art",
+        descripcion: "Aver"
     },
 
 ] ;

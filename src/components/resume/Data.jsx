@@ -5,7 +5,7 @@ const data = [
         category: "experiencia",
         icon: "icon-briefcase",
         year: "2022-2023",
-        title: "Freelance",
+        title: "Freelance (Actualidad)",
         desc: "Elaboracion de proyectos independientes"
     },
 

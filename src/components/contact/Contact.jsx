@@ -15,24 +15,24 @@ const Contact = () => {
           <div className='contact__form-group'>
 
             <div className="contact__form-div">
-              <input type="text" className='contact__form-input' placeholder='Insert Your name' />
+              <input type="text" className='contact__form-input' placeholder='Ingrese su nombre' />
             </div>
 
             <div className="contact__form-div">
-              <input type="email" className='contact__form-input' placeholder='Insert Your Email' />
+              <input type="email" className='contact__form-input' placeholder='Asunto' />
             </div>
 
           </div>
 
           <div className="contact__form-div">
-              <input type="text" className='contact__form-input' placeholder='Insert Your subjetc' />
+              <input type="text" className='contact__form-input' placeholder='Ingrese su mail' />
           </div>
 
           <div className="contact__form-div contact__form-area">
-              <textarea name="" id="" cols="30" rows="10" className='contact__form-input' placeholder="Write your mensaje"></textarea>
+              <textarea name="" id="" cols="30" rows="10" className='contact__form-input' placeholder="Ingrese su mensaje"></textarea>
           </div>
 
-          <button className='btn'> Send Message</button>
+          <button className='btn'>Enviar </button>
 
         </form>
 

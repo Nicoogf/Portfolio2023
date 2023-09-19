@@ -48,28 +48,28 @@ const data = [
     id: 3 ,
     image: tailwind,
     title: "Tailwind",
-    subtitle: "Stack Inicial",
+    subtitle: "Framework de Css",
   },
 
   {
     id: 3 ,
     image: boostrap,
     title: "Boostrap",
-    subtitle: "Stack Inicial",
+    subtitle: "Framework de Css",
   },
 
   {
     id: 3 ,
     image: node,
     title: "NodeJs",
-    subtitle: "Stack Inicial",
+    subtitle: "Entorno de ejecución",
   },
 
   {
     id: 3 ,
     image: express,
     title: "Express",
-    subtitle: "Stack Inicial",
+    subtitle: "Framework Backend",
   },
 
   
@@ -77,35 +77,35 @@ const data = [
     id: 3 ,
     image: ejs,
     title: "EJS",
-    subtitle: "Stack Inicial",
+    subtitle: "Motor de vistas",
   },
 
   {
     id: 3 ,
     image: api,
     title: "Api",
-    subtitle: "Stack Inicial",
+    subtitle: "Consumo de Apis propias y de terceros",
   },
 
   {
     id: 3 ,
     image: react,
     title: "ReactJs",
-    subtitle: "Stack Inicial",
+    subtitle: "Librería Frontend",
   },
 
   {
     id: 3 ,
     image: next,
     title: "NextJs",
-    subtitle: "Stack Inicial",
+    subtitle: "Marco web de desarrollo front-end ",
   },
 
   {
     id: 3 ,
     image: motion,
     title: "Framer Motion",
-    subtitle: "Stack Inicial",
+    subtitle: "Animaciones en interfaces",
   },
  
  

@@ -70,6 +70,19 @@
     opacity: 0;
 }
 
+.work__descripcion{
+    color: #ff7b00;
+    font-size: var(--small-font-size);
+    margin: 0 0 0.98rem;
+    padding: 0 1.25rem;
+    position: absolute;
+    top: 3.5rem;
+    transform: translateY(10px);
+    transition: .3s;
+    opacity: 0;
+    z-index: 50;
+}
+
 .work__button{
     color:#fff;
     position: absolute;
@@ -93,9 +106,16 @@
 }
 
 .work__card:hover .work__title,
-.work_card:hover .work__category{
+.work__card:hover .work__category
+{
     opacity: 1;
     transform: translateY(0);
+}
+
+
+.work__card:hover .work__descripcion{
+    opacity: 1;
+    transform: translateY(30px);
 }
 
 @media screen and (max-width:1024px){

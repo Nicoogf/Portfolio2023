@@ -14,19 +14,20 @@ const Portfolio = () => {
 
   return (
     <section className='work container section' id="portfolio">
-      <h2 className='section__title'> Recent Works </h2>
+      <h2 className='section__title'> Ultimos Trabajos </h2>
 
       <div className="work__filters">
-        <span className='work__items'  onClick={ () => setItems( Menu ) }>Everything</span>
-        <span className='work__items'  onClick={ () => filterItem("Creative")}>Creative</span>
-        <span className='work__items'  onClick={ () => filterItem("Art")}>Art</span>
-        <span className='work__items'  onClick={ () => filterItem("Desing")}>Design</span>
-        <span className='work__items'  onClick={ () => filterItem("Branding")}>Branding</span>
+
+        <span className='work__items'  onClick={ () => setItems( Menu ) }>Ver todo</span>
+        <span className='work__items'  onClick={ () => filterItem("Diseño")}>Diseños</span>
+        <span className='work__items'  onClick={ () => filterItem("App")}>Apps</span>
+        <span className='work__items'  onClick={ () => filterItem("Clon")}>Clones</span>
+  
       </div>
 
       <div className="work__container grid">
         { items.map ((elem)=>{
-            const { id , image , title , category } = elem ;
+            const { id , image , title , category , descripcion } = elem ;
             return(
               <div className='work__card' key={ id }>
                 <div className="work__thumbnail">
@@ -36,6 +37,7 @@ const Portfolio = () => {
 
                 <span className='work__category'> { category } </span> 
                 <h3 className='work__title'> { title } </h3>
+                <p className='work__descripcion'> { descripcion } </p>
                 <a href="#" className="work__button" id="">
                   <i className="icon-link work__button-icon"></i>
                 </a>
