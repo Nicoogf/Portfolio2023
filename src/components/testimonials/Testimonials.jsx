@@ -7,57 +7,133 @@ import 'swiper/css/pagination';
 
 import "./testimonials.css" ;
 import Image1 from "../../assets/avatar-1.svg" ;
-import Image2 from "../../assets/avatar-2.svg" ;
-import Image3 from "../../assets/avatar-3.svg" ;
+
+import html from "../../assets/html.jpg" ;
+import css from "../../assets/css.jpg" ;
+import js from "../../assets/js.jpg" ;
+import tailwind from "../../assets/tailwind.jpg" ;
+import boostrap from "../../assets/boostrap.jpg" ;
+import node from "../../assets/node.jpg" ;
+import express from "../../assets/express.jpg" ;
+import ejs from "../../assets/ejs.jpg" ;
+import api from "../../assets/api.jpg" ;
+import react from "../../assets/react.jpg";
+import next from "../../assets/next.jpg" ;
+import motion from "../../assets/motion.jpg" ;
+
 
 const data = [
   {
     id: 1 ,
-    image: Image1,
-    title: "John Doe",
-    subtitle: "Product designer",
-    comment : "comentario numero uno sobre la devolcuion del producto"
+    image: html,
+    title: "HTML",
+    subtitle: "Stack Inicial",
   },
+
   {
     id: 2 ,
-    image: Image3,
-    title: "John Doe",
-    subtitle: "Product numero dos",
-    comment : "comentario numero dos sobre la devolcuion del producto"
+    image: css,
+    title: "CSS",
+    subtitle: "Stack Inicial",
   },
+
   {
     id: 3 ,
-    image: Image3,
-    title: "John Doe",
-    subtitle: "Product numero tres",
-    comment : "comentario numero tres sobre la devolcuion del producto"
+    image: js,
+    title: "Javascript",
+    subtitle: "Stack Inicial",
   },
+
+  {
+    id: 3 ,
+    image: tailwind,
+    title: "Tailwind",
+    subtitle: "Stack Inicial",
+  },
+
+  {
+    id: 3 ,
+    image: boostrap,
+    title: "Boostrap",
+    subtitle: "Stack Inicial",
+  },
+
+  {
+    id: 3 ,
+    image: node,
+    title: "NodeJs",
+    subtitle: "Stack Inicial",
+  },
+
+  {
+    id: 3 ,
+    image: express,
+    title: "Express",
+    subtitle: "Stack Inicial",
+  },
+
+  
+  {
+    id: 3 ,
+    image: ejs,
+    title: "EJS",
+    subtitle: "Stack Inicial",
+  },
+
+  {
+    id: 3 ,
+    image: api,
+    title: "Api",
+    subtitle: "Stack Inicial",
+  },
+
+  {
+    id: 3 ,
+    image: react,
+    title: "ReactJs",
+    subtitle: "Stack Inicial",
+  },
+
+  {
+    id: 3 ,
+    image: next,
+    title: "NextJs",
+    subtitle: "Stack Inicial",
+  },
+
+  {
+    id: 3 ,
+    image: motion,
+    title: "Framer Motion",
+    subtitle: "Stack Inicial",
+  },
+ 
+ 
 
 ];
 
 const Testimonials = () => {
   return (
-    <section className="testimonials container section">
-      <h2 className='section__title'> Clientes y Reviews </h2>
+    <section className="testimonials container section" id="tecnologias">
+      <h2 className='section__title'> Tecnologias </h2>
 
       <Swiper className="testimonials__container grid" 
                modules={[ Pagination ]}
                spaceBetween={30}
-               slidesPerView={1}
+               slidesPerView={3}
                loop={ true }
                grabCursor={true }            
-               pagination={{ clickable: true }} >
+               >
               
 
         {data.map(( item )=>{
           return(
             <SwiperSlide className="testimonial__item" key={ item.id }>
               <div className="thumb">
-                <img src={ item.image } alt=''/>
+                <img src={ item.image } alt='' className='testimonial__img'/>
               </div>
               <h3 className='testimonials__title'> { item.title } </h3>
-              <span className='subtitle'> { item.subtitle } </span>
-              <div className="comment"> { item.comment } </div>
+              <span className='subtitle'> { item.subtitle } </span>             
             </SwiperSlide>
           )
         })}

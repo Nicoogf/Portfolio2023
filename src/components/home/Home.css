@@ -24,6 +24,7 @@
 
 .home__socials{
     display: flex;
+    justify-content: center;
     column-gap: 1.75rem;
     margin: 1.5rem 0;
 }
@@ -92,6 +93,10 @@
     position: absolute;
     left: 0;
     top: 0;
+}
+
+.btn{
+    margin: auto;
 }
 
 @media screen and (max-width:1024px){

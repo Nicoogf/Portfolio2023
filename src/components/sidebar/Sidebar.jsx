@@ -33,31 +33,31 @@ const Sidebar = () => {
                 </li>
 
                 <li className='nav__item'>
-                  <a href="#portfolio" className="nav__link"> 
-                    <i className='icon-briefcase' /> 
+                  <a href="#services" className="nav__link"> 
+                    <i className='icon-energy' /> 
                   </a>
                 </li>
 
                 <li className='nav__item'>
-                  <a href="#blog" className="nav__link"> 
+                  <a href="#resume" className="nav__link"> 
                     <i className='icon-graduation' /> 
                   </a>
                 </li>
 
                 <li className='nav__item'>
-                  <a href="#contact" className="nav__link"> 
+                  <a href="#portfolio" className="nav__link"> 
+                    <i className='icon-briefcase' /> 
+                  </a>
+                </li>
+               
+                <li className='nav__item'>
+                  <a href="#tecnologias" className="nav__link"> 
                     <i className='icon-layers' /> 
                   </a>
                 </li>
 
                 <li className='nav__item'>
-                  <a href="#home" className="nav__link"> 
-                    <i className='icon-note' /> 
-                  </a>
-                </li>
-
-                <li className='nav__item'>
-                  <a href="#home" className="nav__link"> 
+                  <a href="#contact" className="nav__link"> 
                     <i className='icon-bubble' /> 
                   </a>
                 </li>

@@ -58,7 +58,8 @@
     .services__container{
         grid-template-columns: repeat( 2 , 330px);
         justify-content: center;
-        row-gap: 1.875;
+        row-gap: 1.875rem;
+        column-gap: 1.875rem;
     }
 }
 

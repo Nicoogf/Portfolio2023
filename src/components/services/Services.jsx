@@ -8,29 +8,29 @@ const data = [
   {
     id: 1,
     image: Image1,
-    title: "UI / UX Design",
-    description : "Lorem bla bla abla bal abla abla abla ablaablabal"
+    title: "Responsive Design",
+    description : "Diseño de sitios web adaptados a diferentes dispositivos y tamaños de pantalla"
   },
 
   {
     id: 2,
     image: Image2,
     title: "Web Development",
-    description : "Lorem bla bla abla bal abla abla abla ablaablabal"
+    description : "Creacion y mantenimiento de sitios o aplicaciones web"
   },
 
   {
     id: 3,
     image: Image3,
-    title: "Photography",
-    description : "Lorem bla bla abla bal abla abla abla ablaablabal"
+    title: "Single Page Application",
+    description : "Aplicaciónes con componentes reactivos"
   }
 ]
 
 const Services = () => {
   return (
     <section className="services container section" id='services'>
-      <h2 className="section__title"> Services </h2>
+      <h2 className="section__title"> Conocimiento en </h2>
 
       <div className="services__container grid">
         { data.map(( item ) => {

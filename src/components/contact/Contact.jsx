@@ -4,11 +4,11 @@ import "./contact.css" ;
 const Contact = () => {
   return (
     <section className='contact container section' id="contact">
-      <h2 className='section__title'> Get in Touch</h2>
+      <h2 className='section__title'> Contacto</h2>
       <div className="contact__container grid">
         <div className="contact__info">
-          <h3 className="contact__title"> Lets talk about </h3>
-          <p className='contact__details'> dont like forms? send me an email</p>
+          <h3 className="contact__title"> No dudes en consultar </h3>
+          <p className='contact__details'> Envia tu propuesta por Mail </p>
         </div>
 
         <form action="" className='contact__form'>
