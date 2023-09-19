@@ -4,71 +4,77 @@ import Logo from "../../assets/logo.svg"
 
 const Sidebar = () => {
   return (
-    <aside className='aside'>
+    <>
+      <aside className='aside'>
 
-      <a href="#home" className="nav__logo">
-        <img src={ Logo } alt='' />
-      </a>
+          <a href="#home" className="nav__logo">
+            <img src={ Logo } alt='' />
+          </a>
 
-      <nav className='nav'>
-        <div className='nav__menu'>
+          <nav className='nav'>
+            <div className='nav__menu'>
 
-          <ul className='nav__list'>
+              <ul className='nav__list'>
 
-            <li className='nav__item'>
-              <a href="#home" className="nav__link"> 
-                <i className='icon-home' /> 
-              </a>
-            </li>
+                <li className='nav__item'>
+                  <a href="#home" className="nav__link"> 
+                    <i className='icon-home' /> 
+                  </a>
+                </li>
 
-            
-            <li className='nav__item'>
-              <a href="#about" className="nav__link"> 
-                <i className='icon-user-following' /> 
-              </a>
-            </li>
+                
+                <li className='nav__item'>
+                  <a href="#about" className="nav__link"> 
+                    <i className='icon-user-following' /> 
+                  </a>
+                </li>
 
-            <li className='nav__item'>
-              <a href="#portfolio" className="nav__link"> 
-                <i className='icon-briefcase' /> 
-              </a>
-            </li>
+                <li className='nav__item'>
+                  <a href="#portfolio" className="nav__link"> 
+                    <i className='icon-briefcase' /> 
+                  </a>
+                </li>
 
-            <li className='nav__item'>
-              <a href="#blog" className="nav__link"> 
-                <i className='icon-graduation' /> 
-              </a>
-            </li>
+                <li className='nav__item'>
+                  <a href="#blog" className="nav__link"> 
+                    <i className='icon-graduation' /> 
+                  </a>
+                </li>
 
-            <li className='nav__item'>
-              <a href="#contact" className="nav__link"> 
-                <i className='icon-layers' /> 
-              </a>
-            </li>
+                <li className='nav__item'>
+                  <a href="#contact" className="nav__link"> 
+                    <i className='icon-layers' /> 
+                  </a>
+                </li>
 
-            <li className='nav__item'>
-              <a href="#home" className="nav__link"> 
-                <i className='icon-note' /> 
-              </a>
-            </li>
+                <li className='nav__item'>
+                  <a href="#home" className="nav__link"> 
+                    <i className='icon-note' /> 
+                  </a>
+                </li>
 
-            <li className='nav__item'>
-              <a href="#home" className="nav__link"> 
-                <i className='icon-bubble' /> 
-              </a>
-            </li>
-            
-          </ul>
-          
+                <li className='nav__item'>
+                  <a href="#home" className="nav__link"> 
+                    <i className='icon-bubble' /> 
+                  </a>
+                </li>
+                
+              </ul>
+              
+            </div>
+
+          </nav>
+
+          <div className="nav__footer">
+            <span className="copyright">&copy; 2023 - 2024. </span>
+          </div>
+
+       </aside>
+
+        <div className="nav__toggle">
+          <i className="icon-menu"></i>
         </div>
-
-      </nav>
-
-      <div className="nav__footer">
-        <span className="copyright">&copy; 2023 - 2024. </span>
-      </div>
-
-    </aside>
+    </>
   ) ;
 } ;
 
