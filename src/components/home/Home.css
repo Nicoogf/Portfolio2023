@@ -4,6 +4,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: var(--container-color);
 }
 
 .intro{
@@ -17,9 +18,14 @@
 }
 
 .home__name{
+    color: var( --blanco-color  ) ;
     font-size: var(--h1-font-size);
     font-weight: var(--font-bold);
     margin-bottom: 0.5rem;
+}
+
+.home__education{
+    color: var( --texto-color )
 }
 
 .home__socials{
@@ -30,13 +36,13 @@
 }
 
 .home__social-link{
-    color:var(--title-color) ;
+    color:var( --texto-color ) ;
     font-size: 1.3rem;
     transition: .3s;
 }
 
 .home__social-link:hover{
-    color: hsl(43, 100%, 68%);
+    color: var( --title-color );
 }
 
 .scroll_down{
@@ -48,6 +54,7 @@
 
 .home__scroll-name{
     font-size: var(--small-font-size);
+    color:var(--blanco-color)
 }
 
 .mouse{
@@ -59,6 +66,12 @@
     margin-top: .75rem;
     border-radius: 1rem;
     position: relative;
+    background-color:var(--blanco-color)
+}
+
+.mouse:hover{
+    background-color: var(--text-color);
+    border:var(--title-color) #454360;
 }
 
 @keyframes ani-mouse {
@@ -96,6 +109,7 @@
 }
 
 .btn{
+    background-color: var( --title-color );
     margin: auto;
 }
 

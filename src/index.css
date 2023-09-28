@@ -7,11 +7,16 @@
 :root{
 
   /* ==== Colores ====*/
-  --first-color : hsl(353, 100% , 65%) ;
-  --title-color : hsl(244, 24% , 26%) ;
-  --text-color : hsl(244, 16% , 43%) ;  
-  --body-color : hsl(258, 60% , 98%) ;
-  --container-color : #fff ;
+ 
+
+  --first-color : #f9b233 ;
+  --title-color : #ff725e ;
+  --text-color : #5f6dcc ;  
+  --body-color : #222540 ;
+  --container-color : #1c1d31 ;
+  --blanco-color : #fff;
+  --texto-color : hsl(245, 37%, 82%) ;  
+
 
   /* ==== Fuente y Tipografia ====*/
   --body-font : "Rubik" , sans-serif ;
@@ -69,9 +74,9 @@
   }
 
   body{
-    background-color: var(--body-color);
+    background-color: var(--container-color);
     line-height: 1.7;
-    color: var(--text-color);
+    color: var(--texto-color);
   }
 
   h1, h2, h3{
@@ -158,5 +163,5 @@
     
   }
   .btn:hover{
-    animation: button-push 0.3s linear 1;
+    animation: button-push 0.3s linear 1 forwards;
   }

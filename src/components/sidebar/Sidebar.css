@@ -12,6 +12,7 @@
     justify-content: space-between;
     z-index: 10;
     transition: .3s;
+    background-color: var( --body-color );
 }
 
 .nav__list{
@@ -22,13 +23,13 @@
 
 .nav__link{
     font-size: 1.5rem;
-    color: var(--title-color) ;
+    color: var( --text-color ) ;
     font-weight: var(--font-bold);
     transition: .3s;
 }
 
 .nav__link:hover{
-    color: hsl(43 , 100% ,68%)
+    color: var(--title-color )
 }
 
 .copyright{

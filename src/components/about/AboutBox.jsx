@@ -9,7 +9,7 @@ const AboutBox = () => {
 
             <div>
                 <h3 className="about__title">20</h3>
-                <span className="about_subtitle">Proyectos</span>
+                <span className="about__subtitle">Proyectos</span>
             </div>
 
         </div>
@@ -20,7 +20,7 @@ const AboutBox = () => {
 
             <div>
                 <h3 className="about__title">3</h3>
-                <span className="about_subtitle">Certificados Oficiales</span>
+                <span className="about__subtitle">Certificados Oficiales</span>
             </div>
 
         </div>
@@ -31,7 +31,7 @@ const AboutBox = () => {
 
             <div>
                 <h3 className="about__title">1</h3>
-                <span className="about_subtitle">Año de Experiencia</span>
+                <span className="about__subtitle">Año de Experiencia</span>
             </div>
 
         </div>

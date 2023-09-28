@@ -1,8 +1,8 @@
 import React from 'react' ;
 import "./services.css" ;
-import Image1 from "../../assets/service-1.svg";
-import Image2 from "../../assets/service-2.svg";
-import Image3 from "../../assets/service-3.svg";
+import Image1 from "../../assets/Responsive.svg";
+import Image2 from "../../assets/Codigo.svg";
+import Image3 from "../../assets/SPA.svg";
 
 const data = [
   {

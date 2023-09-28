@@ -30,7 +30,7 @@ const data = [
     {
         id: 3,
         category: "educacion",
-        icon: "icon-briefcase",
+        icon: "icon-graduation",
         year: "2023",
         title: " Digital House (En Curso)",
         desc: " Especializacion Frontend - Profundizando en Progressive Web Apps, Redux y patrones de diseño "
@@ -40,7 +40,7 @@ const data = [
     {
         id: 4,
         category: "educacion",
-        icon: "icon-briefcase",
+        icon: "icon-graduation",
         year: "2023",
         title: "Universidad Tecnológica Nacional ",
         desc: "Curso Intensivo - Desarrollo Web "
@@ -49,7 +49,7 @@ const data = [
     {
         id: 5,
         category: "educacion",
-        icon: "icon-briefcase",
+        icon: "icon-graduation",
         year: "2022",
         title: "Digital House",
         desc: "Programación Web Full Stack - Especializacion en los principales lenguajes y Frameworks"
