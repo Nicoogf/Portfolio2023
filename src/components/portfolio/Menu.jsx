@@ -49,6 +49,48 @@ const Menu = [
         category: "art",
         descripcion: "Aver"
     },
+    {
+        id: 7,
+        image: spotify,
+        title: "Spotify Clone",
+        category: "Clon",
+        descripcion: "Proyecto realizado con Tailwind - NextJs"
+    },
+    {
+        id: 8,
+        image: Work2,
+        title: "App de screens",
+        category: "App",
+        descripcion: "Proyecto realizado con Tailwind - NextJs"
+    },
+    {
+        id: 9,
+        image: Work3,
+        title: "delivery app",
+        category: "Diseño",
+        descripcion: "Aver"
+    },
+    {
+        id: 10,
+        image: Work4,
+        title: "onbrabndi motivation",
+        category: "Desing",
+        descripcion: "Aver"
+    },
+    {
+        id: 11,
+        image: Work5,
+        title: "ImacMock desing",
+        category: "Creative",
+        descripcion: "Aver"
+    },
+    {
+        id: 12,
+        image: Work6,
+        title: "GameStore",
+        category: "art",
+        descripcion: "Aver"
+    },
 
 ] ;
 
