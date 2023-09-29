@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Portfolio2023/static/css/main.4d9032ae.css",
+    "main.js": "/Portfolio2023/static/js/main.9875c15c.js",
+    "static/media/Spotify.jpg": "/Portfolio2023/static/media/Spotify.6e25378a9070d2b33565.jpg",
+    "static/media/avatar-2.svg": "/Portfolio2023/static/media/avatar-2.dbaf15ff9b5d68a39d1b24521fb12640.svg",
+    "static/media/avatar-1.svg": "/Portfolio2023/static/media/avatar-1.e18c937d0a33154687422e5da407f480.svg",
+    "static/media/Responsive.svg": "/Portfolio2023/static/media/Responsive.5b1a63ffc0a9c0d6ca8e7b86d007d579.svg",
+    "static/media/Codigo.svg": "/Portfolio2023/static/media/Codigo.ca463bbf282f47febcbbb8a1946373e9.svg",
+    "static/media/SPA.svg": "/Portfolio2023/static/media/SPA.4a1c7c7a5da4b6293b7e45e9cf98b6ba.svg",
+    "static/media/dots-bg.svg": "/Portfolio2023/static/media/dots-bg.aa8289c51cd678b8cd47.svg",
+    "index.html": "/Portfolio2023/index.html",
+    "static/media/n.svg": "/Portfolio2023/static/media/n.1cb12825493efbf6de9b348b8e72876d.svg",
+    "main.4d9032ae.css.map": "/Portfolio2023/static/css/main.4d9032ae.css.map",
+    "main.9875c15c.js.map": "/Portfolio2023/static/js/main.9875c15c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4d9032ae.css",
+    "static/js/main.9875c15c.js"
+  ]
+}
