@@ -1,9 +1,5 @@
 import spotify from "../../assets/Spotify.jpg" ;
-import Work2 from "../../assets/work-2.svg" ;
-import Work3 from "../../assets/work-3.svg" ;
-import Work4 from "../../assets/work-4.svg" ;
-import Work5 from "../../assets/work-5.svg" ;
-import Work6 from "../../assets/work-6.svg" ;
+
 
 
 const Menu = [
@@ -16,35 +12,35 @@ const Menu = [
     },
     {
         id: 2,
-        image: Work2,
+        image: spotify,
         title: "App de screens",
         category: "App",
         descripcion: "Proyecto realizado con Tailwind - NextJs"
     },
     {
         id: 3,
-        image: Work3,
+        image: spotify,
         title: "delivery app",
         category: "Diseño",
         descripcion: "Aver"
     },
     {
         id: 4,
-        image: Work4,
+        image: spotify,
         title: "onbrabndi motivation",
         category: "Desing",
         descripcion: "Aver"
     },
     {
         id: 5,
-        image: Work5,
+        image: spotify,
         title: "ImacMock desing",
         category: "Creative",
         descripcion: "Aver"
     },
     {
         id: 6,
-        image: Work6,
+        image: spotify,
         title: "GameStore",
         category: "art",
         descripcion: "Aver"
@@ -58,35 +54,35 @@ const Menu = [
     },
     {
         id: 8,
-        image: Work2,
+        image: spotify,
         title: "App de screens",
         category: "App",
         descripcion: "Proyecto realizado con Tailwind - NextJs"
     },
     {
         id: 9,
-        image: Work3,
+        image: spotify,
         title: "delivery app",
         category: "Diseño",
         descripcion: "Aver"
     },
     {
         id: 10,
-        image: Work4,
+        image: spotify,
         title: "onbrabndi motivation",
         category: "Desing",
         descripcion: "Aver"
     },
     {
         id: 11,
-        image: Work5,
+        image: spotify,
         title: "ImacMock desing",
         category: "Creative",
         descripcion: "Aver"
     },
     {
         id: 12,
-        image: Work6,
+        image: spotify,
         title: "GameStore",
         category: "art",
         descripcion: "Aver"
