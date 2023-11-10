@@ -8,85 +8,10 @@ const Menu = [
         image: spotify,
         title: "Spotify Clone",
         category: "Clon",
-        descripcion: "Proyecto realizado con Tailwind - NextJs"
+        descripcion: "Proyecto realizado con Tailwind - NextJs",
+        link: "https://64ff390505e2891c04d49721--inquisitive-kheer-6f9b50.netlify.app/"
     },
-    {
-        id: 2,
-        image: spotify,
-        title: "App de screens",
-        category: "App",
-        descripcion: "Proyecto realizado con Tailwind - NextJs"
-    },
-    {
-        id: 3,
-        image: spotify,
-        title: "delivery app",
-        category: "Diseño",
-        descripcion: "Aver"
-    },
-    {
-        id: 4,
-        image: spotify,
-        title: "onbrabndi motivation",
-        category: "Desing",
-        descripcion: "Aver"
-    },
-    {
-        id: 5,
-        image: spotify,
-        title: "ImacMock desing",
-        category: "Creative",
-        descripcion: "Aver"
-    },
-    {
-        id: 6,
-        image: spotify,
-        title: "GameStore",
-        category: "art",
-        descripcion: "Aver"
-    },
-    {
-        id: 7,
-        image: spotify,
-        title: "Spotify Clone",
-        category: "Clon",
-        descripcion: "Proyecto realizado con Tailwind - NextJs"
-    },
-    {
-        id: 8,
-        image: spotify,
-        title: "App de screens",
-        category: "App",
-        descripcion: "Proyecto realizado con Tailwind - NextJs"
-    },
-    {
-        id: 9,
-        image: spotify,
-        title: "delivery app",
-        category: "Diseño",
-        descripcion: "Aver"
-    },
-    {
-        id: 10,
-        image: spotify,
-        title: "onbrabndi motivation",
-        category: "Desing",
-        descripcion: "Aver"
-    },
-    {
-        id: 11,
-        image: spotify,
-        title: "ImacMock desing",
-        category: "Creative",
-        descripcion: "Aver"
-    },
-    {
-        id: 12,
-        image: spotify,
-        title: "GameStore",
-        category: "art",
-        descripcion: "Aver"
-    },
+   
 
 ] ;
 
