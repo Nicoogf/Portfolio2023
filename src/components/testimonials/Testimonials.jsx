@@ -6,7 +6,6 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 
 import "./testimonials.css" ;
-import Image1 from "../../assets/avatar-1.svg" ;
 
 import html from "../../assets/html.jpg" ;
 import css from "../../assets/css.jpg" ;

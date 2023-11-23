@@ -13,39 +13,22 @@ const Resume = () => {
       <div className="resume__container grid">
 
         <div className="timeline grid">
-          { Data.map((item)=> {
-            if(item.category === "educacion"){
-
-                return(
-                  <Card 
-                      key={ item.id } 
-                      icon={ item.icon } 
-                      title={ item.title } 
-                      year={ item.year } 
-                      desc={ item.desc }
-                  />
-                )
-
+        {Data.map((item) => {
+            if (item.category === "experiencia") {
+              return (
+                <Card
+                  key={item.id}
+                  icon={item.icon}
+                  title={item.title}
+                  year={item.year}
+                  desc={item.desc}
+                />
+              );
+            } else {             
+              return null; 
             }
-           })}
-        </div>
-
-        <div className="timeline grid">
-          { Data.map((item)=> {
-            if(item.category === "experiencia"){
-
-                return(
-                  <Card 
-                      key={ item.id } 
-                      icon={ item.icon } 
-                      title={ item.title } 
-                      year={ item.year } 
-                      desc={ item.desc }
-                  />
-                )
-            }
-           })}
-        </div>
+          })}
+          </div>
 
 
       
