@@ -21,7 +21,7 @@ const About = () => {
             Desarrollador Full-Stack con conocimientos sólidos en <span className='bold'>Javascript</span>   focalizado en crear soluciones digitales que se destaquen por su innovación y calidad. Con pasión por impulsar mi carrera profesional en el area de la programacion web
             </p>
 
-            <a href="#" className="btn"> Download CV</a>
+            <a href="/Nicolas FalabellaCV.pdf" className="btn" download> Download CV</a>
 
           </div>
 
