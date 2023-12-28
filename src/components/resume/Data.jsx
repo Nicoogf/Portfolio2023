@@ -52,7 +52,7 @@ const data = [
         icon: "icon-graduation",
         year: "2022",
         title: "Digital House",
-        desc: "Programación Web Full Stack - Especializacion en los principales lenguajes y Frameworks"
+        desc: "Programación Web Full Stack - Especializacion Front"
     },
 
 ]
